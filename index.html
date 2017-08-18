@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>床币竞猜</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <script>
+    	!function(){
+    		function setFontSize(){
+    			var width = window.screen.availWidth>414?414:window.screen.availWidth<320?320:window.screen.availWidth;
+    			var fz = (width / 750) * 100 + 'px';
+    			document.querySelector('html').style.fontSize = fz;
+    		}
+    		setFontSize();
+    		window.onresize = function(){
+    			setFontSize();
+    		}
+    	}()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
