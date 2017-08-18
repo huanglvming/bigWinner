@@ -1,4 +1,4 @@
-# vue-infinite-scroll
+# bigWinner
 
 > A Vue.js project
 
